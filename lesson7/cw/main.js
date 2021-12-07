@@ -4,30 +4,30 @@
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-// //
-// function Car(model, producer, year, maxSpeed, volume){
-//     this.model = model;
-//     this.producer = producer;
-//     this.year = year;
-//     this.maxSpeed = maxSpeed;
-//     this.model = volume;
-//     this.drive = () =>{
-//         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
-//     };
-// this.info = () =>{
-//     console.log(`модель - ${this.model}`, `виробник ${this.producer}`, `рік${this.year}` )
-// };
-// this.increaseMaxSpeed = (newSpeed) =>{
-//     this.maxSpeed = maxSpeed + newSpeed;
-// };
-// this.changeYear = (newValue) =>{
-//     this.year = newValue
-// };
-// this.addDriver = (driver) =>{
-//     this.drive = driver
-// };
-// }
-// let addCar = new Car('audi', 'Germany', 2010, 270, 2.0);
+//
+function Car(model, producer, year, maxSpeed, volume){
+    this.model = model;
+    this.producer = producer;
+    this.year = year;
+    this.maxSpeed = maxSpeed;
+    this.model = volume;
+    this.drive = () =>{
+        console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
+    };
+this.info = () =>{
+    console.log(`модель - ${this.model}`, `виробник ${this.producer}`, `рік${this.year}` )
+};
+this.increaseMaxSpeed = (newSpeed) =>{
+    this.maxSpeed = maxSpeed + newSpeed;
+};
+this.changeYear = (newValue) =>{
+    this.year = newValue
+};
+this.addDriver = (driver) =>{
+    this.drive = driver
+};
+}
+let addCar = new Car('audi', 'Germany', 2010, 270, 2.0);
 // console.log(addCar);
 // addCar.drive();
 // addCar.info();
